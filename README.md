@@ -15,14 +15,19 @@ This is an educational project to practice building React components as a part o
 - Postgresql
 - React
 
-## Setup
+## Get Started
 
-- Clone the Repository
-- Run `bundle install` and `yarn install`
+- Clone this repository with https://github.com/Abenezer-Tilahun/Hello-world-rails-react.git using your terminal or command line.
+- Change to the project directory by entering cd Hello-world-rails-react in the terminal.
+- run bundle install to install the necessary dependencies.
+- run rails db:create
+- Run rails db:migrate to setup your local database.
+- Run sudo service postgresql start to start the database service.
+- Finally, run rails s to start the application.
 
-### Usage
-
-- Run `rails server` to start the server and start the application.
+> If you face any issues on  installing application you can fix it by running the following command
+- yarn add @rails/webpacker
+- bundle update webpacker
 
 ## Author
 

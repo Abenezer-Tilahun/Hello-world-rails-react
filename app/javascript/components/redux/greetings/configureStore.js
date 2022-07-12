@@ -1,6 +1,6 @@
 import { applyMiddleware, combineReducers, legacy_createStore as createStore } from 'redux';
 import thunk from 'redux-thunk';
-import GreetingReducer from './greetings/greetings';
+import GreetingReducer from './greetings';
 
 const rootReducer = combineReducers({
   greeting: GreetingReducer,

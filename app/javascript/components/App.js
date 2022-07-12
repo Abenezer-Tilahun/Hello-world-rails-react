@@ -5,7 +5,7 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-import store from './redux/configureStore'
+import store from './redux/greetings/configureStore';
 import Greeting from "./Greeting";
 
 const App = () => (
