@@ -38,4 +38,4 @@ This is an educational project to practice building React components as a part o
 
 ### 📝 License
 
-This project is MIT licensed.
+This project is [MIT](./LICENSE) licensed.
